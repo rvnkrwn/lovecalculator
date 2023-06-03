@@ -3,7 +3,7 @@ import { ColorModeSwitcher } from "./components/ColorModeSwitcher";
 
 function Navbar() {
     return(
-        <Box display={"flex"} justifyContent={"space-between"}>
+        <Box display={"flex"} justifyContent={"space-between"} paddingTop={2} paddingBottom={4}>
             <Box alignSelf={"center"}>
                 <Text>
                     ❤️ <span style={{fontSize:"20px", fontWeight: "semibold"}}>Calculator</span>

@@ -1,0 +1,36 @@
+.result {
+    animation: score 2s ease-in-out infinite;
+}
+
+@keyframes score {
+    0% {
+        opacity: 0;
+        font-size: 50px;
+    }
+
+    50% {
+        opacity: 0.5;
+        font-size: 25px;
+    }
+
+    100% {
+        opacity: 1;
+        font-size: 50px;
+    }
+}
+
+.message {
+    animation: msg .2s infinite;
+}
+
+@keyframes msg {
+    0% {
+        color: blue;
+    }
+    50% {
+        color: blue;
+    }
+    100% {
+        color: red;
+    }
+}
