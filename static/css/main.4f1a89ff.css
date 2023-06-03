@@ -1,0 +1,2 @@
+.result{-webkit-animation:score 2s ease-in-out infinite;animation:score 2s ease-in-out infinite}@-webkit-keyframes score{0%{font-size:50px;opacity:0}50%{font-size:25px;opacity:.5}to{font-size:50px;opacity:1}}@keyframes score{0%{font-size:50px;opacity:0}50%{font-size:25px;opacity:.5}to{font-size:50px;opacity:1}}.message{-webkit-animation:msg .2s infinite;animation:msg .2s infinite}@-webkit-keyframes msg{0%{color:blue}50%{color:blue}to{color:red}}@keyframes msg{0%{color:blue}50%{color:blue}to{color:red}}
+/*# sourceMappingURL=main.4f1a89ff.css.map*/
